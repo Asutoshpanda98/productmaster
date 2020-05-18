@@ -19,7 +19,6 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { RetailerhomepageComponent } from './retailerhomepage/retailerhomepage.component';
-import { AdminHomeComponent } from './admin-home/admin-home.component';
 import { ProductMasterHomeComponent } from './product-master-home/product-master-home.component';
 import { authInterceptorProviders } from './_helpers/auth.interceptor';
 import { UserHomeComponent } from './user-home/user-home.component';
@@ -28,6 +27,8 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { ProductmasterhomeComponent } from './productmasterhome/productmasterhome.component';
 import { AddproductComponent } from './productmasterhome/addproduct/addproduct.component';
 import { ViewproductComponent } from './productmasterhome/viewproduct/viewproduct.component';
+import { AdminHomeComponent } from './adminhome/admin-home.component';
+import { FormretailerComponent } from './adminhome/formretailer/formretailer.component';
 
 
 @NgModule({
@@ -47,6 +48,7 @@ import { ViewproductComponent } from './productmasterhome/viewproduct/viewproduc
     ProductmasterhomeComponent,
     AddproductComponent,
     ViewproductComponent,
+    FormretailerComponent,
    
   ],
   imports: [
