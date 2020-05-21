@@ -29,6 +29,7 @@ import { AddproductComponent } from './productmasterhome/addproduct/addproduct.c
 import { ViewproductComponent } from './productmasterhome/viewproduct/viewproduct.component';
 import { AdminHomeComponent } from './adminhome/admin-home.component';
 import { FormretailerComponent } from './adminhome/formretailer/formretailer.component';
+import { OrderpageComponent } from './orderpage/orderpage.component';
 
 
 @NgModule({
@@ -49,6 +50,7 @@ import { FormretailerComponent } from './adminhome/formretailer/formretailer.com
     AddproductComponent,
     ViewproductComponent,
     FormretailerComponent,
+    OrderpageComponent,
    
   ],
   imports: [
