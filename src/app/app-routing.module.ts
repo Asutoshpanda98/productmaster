@@ -15,6 +15,7 @@ import { AdminHomeComponent } from './adminhome/admin-home.component';
 import { FormProductMasterComponent } from './adminhome/form-product-master/form-product-master.component';
 import { FormretailerComponent } from './adminhome/formretailer/formretailer.component';
 import { OrderpageComponent } from './orderpage/orderpage.component';
+import { ViewCancelComponent } from './view-cancel/view-cancel.component';
 
 
 const routes: Routes = [
@@ -34,6 +35,7 @@ const routes: Routes = [
   {path:'adminhome/editretailer' , component:FormretailerComponent },
  
   {path:'orderpage' , component:OrderpageComponent },
+  {path:'cancelpage' , component:ViewCancelComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
